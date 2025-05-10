@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Student Information Manager</h2>
+    <br>
+    <p id="report"></p>
+    <a id="profile-link" href="./create.html">Create New Profile</a>
+    <br>
+<form id="reg-form" action="" method="">
+    <div>
+        <h3 style="display:inline-block;">Enter Student Id:</h3>
+        <input id="searchid"  style="display:inline-block;" type="number" name="Searchid" value=""  placeholder="e.g any three digit number">
+        <button id="btn-reset">Reset</button>
+    </div>
+    <button style="margin-right: 50px;margin-bottom: 20px;width: 95.21px;" id="btn-get" type="">Get Profile</button>
+    <button style="margin-right: 50px;display: block;" id="btn-delete1" type="">Delete Profile</button>
+    <br>
+    <br>
+    <div id="container">
+        <div>
+            <label style="display: inline-block;width: 100px;margin-top: 8px;margin-bottom: 8px;" for="id">Student Id</label>
+            <input type="number" name="Id" value="" id="id">
+        </div>
+        <div>
+            <label style="display: inline-block;width: 100px;margin-top: 8px;margin-bottom: 8px;" for="firstname">Firstname</label>
+            <input type="text" name="Firstname" value="" id="firstname">
+        </div>
+        <div>
+            <label style="display: inline-block;width: 100px;margin-top: 8px;margin-bottom: 8px;" for="firstname">Lastname</label>
+            <input type="text" name="Lastname" value="" id="lastname">
+        </div>
+        <div>
+            <label style="display: inline-block;width: 100px;margin-top: 8px;margin-bottom: 8px;" for="country">Country</label>
+            <input type="text" name="Country" value="" id="country">
+        </div>
+        <button style="margin: 20px;margin-left: 80px;" id="btn-delete2">Delete Profile</button>
+        <button id="btn-update">Update Profile</button>
+    </div>    
+</form>
+<script type="module" src="/selecthandler.js"></script>
+<script type="module" src="/update.js"></script>
+<script type="module" src="/deletehandler.js"></script>
+
+</body>
+</html>

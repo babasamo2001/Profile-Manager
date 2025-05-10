@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Creation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Create New Student Profile</h2>
+    <p id="creation-report">Record successfully created in the profile database</p>
+    <a style="margin-right: 10px;" id="btn-back" href="./create.html">Back</a> 
+    <a id="btn-home" href="../index.html">Home</a>
+<form id="form-create" action="" method="">    
+    <div>
+        <label style="display: inline-block;width: 100px;margin-top: 8px;margin-bottom: 8px;" for="id">Student Id</label>
+        <input type="number" name="id" value="" id="id">
+    </div>
+    <div>
+        <label style="display: inline-block;width: 100px;margin-top: 8px;margin-bottom: 8px;" for="firstname">Firstname</label>
+        <input type="text" name="Firstname" value="" id="firstname">
+    </div>
+    <div>
+        <label style="display: inline-block;width: 100px;margin-top: 8px;margin-bottom: 8px;" for="firstname">Lastname</label>
+        <input type="text" name="Lastname" value="" id="lastname">
+    </div>
+    <div>
+        <label style="display: inline-block;width: 100px;margin-top: 8px;margin-bottom: 8px;" for="country">Country</label>
+        <input type="text" name="Country" value="" id="country">
+    </div>
+    <button style="margin-left: 140px;margin-top: 10px;color: blue;" id="btn-create" type="">Create Profile</button>
+</form>
+
+    
+</body>
+<script src="/createhandler.js"></script>
+</html>
