@@ -1,1 +1,1 @@
-Profile Database Manager performs CRUD operations on entity's data stored in MS SQL Server database using Node.js REST API.
+Profile Database Manager performs CRUD operations on Profile data stored on MS SQL Server database using Node.js REST API.
